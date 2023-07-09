@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "URL Opener",
+  "version": "1.0",
+  "description": "Opens a specific URL in a new tab.",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Open URL",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
